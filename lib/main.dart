@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/home.dart';
+import 'package:flutter_catalog/pages/login.dart';
+import 'package:flutter_catalog/utils/routes.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'pages/home.dart';
 
 
 void main() {
@@ -7,15 +10,25 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( // MaterialApp is a widget that provides a number of helpful widgets
-      title: 'Flutter Demo',
+    return MaterialApp(
+      // home: HomePage(),
+      themeMode: ThemeMode.light,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.brown,
+        fontFamily: GoogleFonts.lato().fontFamily,
       ),
-      home: HomePage(), // home is the default route of the app
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+        primarySwatch: Colors.red,
+      ),
+      initialRoute: "/",
+      routes: {
+        "/" : (context) => LoginPage(),
+        MyRoutes.homeRoute : (context) => HomePage(),
+        MyRoutes.loginRoute : (context) => LoginPage()
+      },
     );
   }
 }

@@ -11,8 +11,10 @@ class HomePage extends StatelessWidget {
         title: Text("Flutter catalog"),
       ),
       body: Center(
-        child: Text("Make Flutter in $days days by $name"),
-      ),
+        child: Container(
+          child: Text("Make Flutter in $days days by $name"),
+        )
+    ),
       drawer: Drawer(),
     );
   }
