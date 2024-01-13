@@ -1,0 +1,14 @@
+class Item {
+  final String id;
+  final String name;
+  final String desc;
+  final int price;
+  final String color;
+  final String image;
+
+Item(this.id, this.name, this.desc, this.price, this.color, this.image);
+}
+
+final products = [
+  Item("001", "iPhone 12 pro", " ", 999, " ", " ")
+];
