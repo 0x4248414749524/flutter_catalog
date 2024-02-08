@@ -1,0 +1,36 @@
+{
+  "pprodects": [
+    {
+      "id": 1,
+      "name": "iPhone 12 Pro",
+      "desc": "iPhone 12 Pro. Super Retina XDR display. Ceramic Shield. A14 Bionic chip. Pro camera system. LiDAR Scanner. Night mode portraits. 5G capable.",
+      "price": 999.00,
+      "color": "Pacific Blue",
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-select-2020?wid=940&hei=1112&fmt=png-alpha&.v=1604021663000"
+    },
+    {
+      "id": 2,
+        "name": "iPhone 12",
+        "desc": "iPhone 12. 5G to download huge files on the go and stream HDR video. Beautifully bright 6.1-inch Super Retina XDR display. Ceramic Shield with four times better drop performance. Incredible low-light photography with Night mode on all cameras. Cinema-grade Dolby Vision video recording, editing, and playback. Powerful A14 Bionic chip. And new MagSafe accessories for easy attach and faster wireless charging. Let the fun begin.",
+        "price": 799.00,
+        "color": "Black",
+        "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-black-select-2020?wid=940&hei=1112&fmt=png-alpha&.v=1604343704000",
+    },
+    {
+      "id": 3,
+      "name": "iPhone 11",
+      "desc": "iPhone 11. Just the right amount of everything. A new dual-camera system captures more of what you see and love. The fastest chip ever in a smartphone and all-day battery life let you do more and charge less. And the highest-quality video in a smartphone, so your memories look better than ever.",
+      "price": 699.00,
+      "color": "Purple",
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-11-purple-select-2019?wid=940&hei=1112&fmt=png-alpha&.v=1566960958082"
+    },
+    {
+      "id": 4,
+      "name": "iPhone SE",
+      "desc": "iPhone SE. Lots to love. Less to spend. iPhone SE packs our most powerful chip into our most popular size at our most affordable price. It’s just what you’ve been waiting for.",
+      "price": 399.00,
+      "color": "White",
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-se-select-2020?wid=940&hei=1112&fmt=png-alpha&.v=1586574262885"
+    }
+    ]
+}

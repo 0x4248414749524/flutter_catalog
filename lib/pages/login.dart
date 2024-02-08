@@ -83,7 +83,6 @@ class _LoginPageState extends State<LoginPage> {
                         } else if (value.length < 6) {
                           return "Minimum Paasword Length is 6. :)";
                         }
-
                         return null;
                       },
                     ),
